@@ -38,3 +38,4 @@ OutSide In TDD lifeCycle
 Start with failing acceptance test : it is stimulating end user scenario( e.g show playlist)
 Start normal inner test cycle multiple time until acceptance test pass goal here is make acceptance test pass as fast as possible for that we need to do inner tdd cycle multiple time
 After completed inner cycle of test always run acceptance test to check it is passing goal is to make acceptance test green.
+
