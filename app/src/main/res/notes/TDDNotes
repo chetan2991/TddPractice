@@ -1,0 +1,40 @@
+TDD pyramid
+
+Unit = 70% :
+1.easy to write 2. run fast 3.indicate exact error
+
+Integration = 20%
+
+E2E = 10%:
+1.great for regression testing 2. hard to write 3. slow to run 4. do not indicate exact error
+
+
+Type of TDD
+1)Classist( Chicago ) :
+-uncle bob, kent beck
+-no use of mock
+-test only end result
+-emerging design
+-black box testing
+
+Pros: - faster refactoring
+Cons:- hard to identify issue, redundant coverage
+
+
+ 2) Out Side In ( London ): ( only system( class ) under test not mock )
+-Steve freeman
+-vast use of mock
+-testing interation
+-upfront design
+
+Pros:- easy to track issue, upfront design, inforce architectural design
+Cons:- extra work test needed when refactoring class and extra api,
+Might produce false positive
+
+
+OutSide In TDD lifeCycle
+
+
+Start with failing acceptance test : it is stimulating end user scenario( e.g show playlist)
+Start normal inner test cycle multiple time until acceptance test pass goal here is make acceptance test pass as fast as possible for that we need to do inner tdd cycle multiple time
+After completed inner cycle of test always run acceptance test to check it is passing goal is to make acceptance test green.
